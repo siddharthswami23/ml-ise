@@ -28,7 +28,7 @@ const chatSession = model.startChat({
       role: "user",
       parts: [
         {
-          text: "Write a script to implement EksBlowfish hashing algorithm in Node.js. The script should take password, salt, and cost as input and return the hash. Provide the result in JSON format with fields: inputPassword, inputSalt, inputCost, and hashedResult.",
+          text: "Write a script to implement bcrypt hashing algorithm in Node.js. The script should take password, salt, and cost as input and return the hash. Provide the result in JSON format with fields: inputPassword, inputSalt, inputCost, and hashedResult.",
         },
       ],
     },
